@@ -1,0 +1,109 @@
+/* Impostazioni di base */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ffcccc, #ff99cc);
+    margin: 0;
+    padding: 0;
+    color: #5a5a5a;
+}
+
+/* Stile per il contenitore principale */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    opacity: 0.95;
+}
+
+/* Titolo */
+.container h2 {
+    color: #cc0000;
+    font-size: 2.5em;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #333;
+}
+
+/* Stile per le informazioni utente */
+.user-info p {
+    font-size: 1.2em;
+    color: #5a5a5a;
+    margin: 10px 0;
+}
+
+/* Stile per le preferenze */
+.user-preferences {
+    margin-top: 30px;
+}
+
+.user-preferences h3 {
+    color: #cc0000;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.preference-block {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 45%;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.preference-block h4 {
+    font-size: 1.5em;
+    color: #cc0000;
+    margin-bottom: 10px;
+}
+
+.preference-block p {
+    font-size: 1.1em;
+    color: #5a5a5a;
+    margin: 5px 0;
+}
+
+/* Stile per il contenitore dei bottoni */
+.button-container {
+    margin-top: 20px;
+}
+
+.button, .profile-button, .back-button {
+    padding: 15px 25px;
+    background-color: #cc3366;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover, .profile-button:hover, .back-button:hover {
+    background-color: #b30047;
+    transform: scale(1.05);
+}
+
+/* Stile per il bottone del profilo */
+.profile-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-button i {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: #fff;
+}

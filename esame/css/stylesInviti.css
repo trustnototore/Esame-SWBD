@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6; /* Colore di sfondo rosa chiaro */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #cc0000; /* Colore rosso per il titolo */
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+table, th, td {
+    border: 1px solid #ffcccc; /* Bordo rosa chiaro */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ff9999; /* Colore di sfondo rosa per le intestazioni */
+    color: #cc0000; /* Colore rosso per il testo delle intestazioni */
+}
+
+tr:nth-child(even) {
+    background-color: #ffe6e6; /* Colore di sfondo rosa chiaro per le righe pari */
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    background-color: #cc0000; /* Colore rosso per i bottoni */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-container button:hover {
+    background-color: #b30000; /* Colore rosso scuro per l'hover dei bottoni */
+}

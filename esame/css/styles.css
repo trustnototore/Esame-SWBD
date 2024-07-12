@@ -1,0 +1,84 @@
+/* Impostazioni di base */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ffcccc, #ff99cc);
+    margin: 0;
+    padding: 0;
+    color: #5a5a5a;
+}
+
+/* Stile per il contenitore principale */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Titolo */
+.container h2 {
+    color: #cc0000;
+    font-size: 2.5em;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Paragrafo di benvenuto */
+.container p {
+    font-size: 1.2em;
+    color: #5a5a5a;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Messaggio di benvenuto personalizzato */
+.welcome-message {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Stile per i bottoni */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.button, .profile-button {
+    padding: 15px 25px;
+    background-color: #cc3366;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover, .profile-button:hover {
+    background-color: #b30047;
+    transform: scale(1.05);
+}
+
+/* Stile per il bottone del profilo */
+.profile-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-button i {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
