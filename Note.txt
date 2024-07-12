@@ -1,0 +1,2 @@
+Per effettuare l'accesso con gli utenti di default, inserire nome e cognome dell'utente tutto minuscolo seguito da @gmail.com per il campo mail e nomecognome tutto miuscolo per la password. 
+gli utenti vanno ricercati nel db.
